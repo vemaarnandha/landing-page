@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Roboto;
+}
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.header,
+.hero,
+footer {
+    background-color: #1F2937;
+}
+
+.content {
+    display: flex;
+}
+
+.header .content {
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    gap: 10px;
+}
+
+.icon img {
+    height: 36px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.icon h1,
+.information h2,
+footer,
+a {
+    color: #F9FAF8;
+}
+
+.hero .content {
+    display: flex;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.information h2 {
+    font-size: 48px;
+    color: F9FAF8;
+    font-weight: 900;
+}
+
+.information p,
+.title p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero .content img {
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+.information button {
+    align-self: flex-start;
+}
+
+button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #3882F6;
+}
+
+.hero .content {
+    display: flex;
+    gap: 20px;
+}
+
+.information-content {
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.cards {
+    display: flex;
+    gap: 40px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 200px;
+}
+
+.item img {
+    width: 200px;
+    height: 200px;
+    border: solid #3882F6;
+    border-radius: 20px;
+}
+
+.container-quote {
+    background-color: #E5E7EB;
+}
+
+.content-quote {
+    padding: 50px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.quote,
+.author {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    text-align: center;
+}
+
+.author {
+    text-align: end;
+    max-width: 300px;
+    font-size: 18px;
+    font-weight: 700;
+    align-self: flex-end;
+}
+.container {
+    margin: 50px auto;
+}
+
+.content-cta {
+    align-items: center;
+    justify-content: space-between;
+    background-color: #4484f6;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.title h4 {
+    font-size: 36px;
+    color:#f8f5fb;
+}
+
+.title {
+    display: flex;
+    flex-flow:column wrap;
+    gap:10px;
+}
+
+.content-cta button {
+    color: #f8f5fb;
+    border:solid;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100px;
+}
